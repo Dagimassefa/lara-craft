@@ -1,0 +1,26 @@
+{
+    "name": "dagim/lara-craft",
+    "description": "Laravel CRUD Generator with React UI scaffolding",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dagim",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "symfony/console": "^6.4",
+        "spatie/laravel-permission": "^6.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dagim\\LaraCraft\\": "src/"
+        }
+    },
+    "config": {
+        "prefer-stable": true
+    }
+}
